@@ -11,6 +11,7 @@ li a{
   text-decoration: none; /*Remover o sublinhado */
 font-size: 20px; /*Tamanho da fonte */
 color: rgb(255, 255, 255);
+padding: 20px; /*separa os titulos*/
 }
 
 li{
@@ -19,12 +20,25 @@ li{
 }
 
 #logo{
-    height: 100px; /*altura */
-    width: 180px; /*largura */
+    height: 90px; /*altura */
+    width: 140px; /*largura */
 }
 
 ul{
 display: flex; /*indica a propriedade FlexBox */
 flex-direction: row; /*colocar os elelmentos na horizontal ou na vertical */
 
+}
+
+.menu{
+  display: flex ; 
+flex-direction: row ;
+
+align-items: center;
+background-color: aqua;
+}
+
+.caixa-img-logo{
+  height: 90px;
+  width: 90px;
 }
