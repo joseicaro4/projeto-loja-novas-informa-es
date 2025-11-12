@@ -33,12 +33,30 @@ flex-direction: row; /*colocar os elelmentos na horizontal ou na vertical */
 .menu{
   display: flex ; 
 flex-direction: row ;
-
 align-items: center;
-background-color: aqua;
+justify-content: space-evenly;
+align-items: center;
+background-color: rgb(0, 0, 0);
 }
 
 .caixa-img-logo{
   height: 90px;
   width: 90px;
+}
+
+.bi{
+  font-size: 30px;
+  color: antiquewhite;
+
+}
+
+
+.banner{
+   background-image:url("./assets/bannercontrole.png");  /* imagem para o fundo*/ 
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 700px;
+   width: 800px;
+   border-radius: 25px;
+
 }
