@@ -1,89 +1,114 @@
-*{
+* {
   padding: 0;
   margin: 0;
-  
+
 }
 
 
-body{
-  background-color: rgb(0, 0, 0); /* Mudar a cor de fundo */
+body {
+  background-color: rgb(0, 0, 0);/* Mudar a cor de fundo */
 }
 
-li a{
+li a {
   text-decoration: none; /*Remover o sublinhado */
-  font-size: 20px; /*Tamanho da fonte */
+  font-size: 20px;/*Tamanho da fonte */
   color: rgb(255, 255, 255);
   padding: 20px; /*separa os titulos*/
 }
 
-li{
-  list-style: none; /*Remover formataçao da lista */
+li {
+  list-style: none;/*Remover formataçao da lista */
 
 }
 
-#logo{
-  height: 90px; /*altura */
-  width: 140px; /*largura */
+#logo {
+  height: 90px;/*altura */
+  width: 140px;/*largura */
 }
 
-ul{
-  display: flex; /*indica a propriedade FlexBox */
-  flex-direction: row; /*colocar os elelmentos na horizontal ou na vertical */
+ul {
+  display: flex;/*indica a propriedade FlexBox */
+  flex-direction: row;/*colocar os elelmentos na horizontal ou na vertical */
 
 }
 
-.menu{
-  display: flex ; 
-  flex-direction: row ;
+.menu {
+  display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   background-color: rgb(0, 0, 0);
 }
 
-.caixa-img-logo{
+.caixa-img-logo {
   height: 90px;
   width: 90px;
+
 }
 
-.bi{
+.bi {
   font-size: 30px;
   color: antiquewhite;
 
 }
 
 
-.banner{
-   background-image:url("./assets/bannercontrole.png");  /* imagem para o fundo*/ 
-   background-repeat: no-repeat;
-   background-size: cover;
-   height: 600px;
-   width: 100%;
-   border-radius: 25px; 
- 
-   
+.banner {
+  background-image: url("./assets/bannercontrole.png");/* imagem para o fundo*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 1200px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+
 }
-.texto-banner{
-  font-size: 35px; /*tamanho do titulo*/
+
+.texto-banner {
+  font-size: 30px;/*tamanho do titulo*/
   color: #ffffff;
-
+ 
 }
 
-.btn-menu{
+.btn-menu {
   width: 175px;
   height: 45px;
   border-radius: 35px;/*borda do botao*/
   background-color: #333333;/*cor do botao*/
   color: #ffffff;
-  font-weight: bold; /*fonte do botao*/
+  font-weight: bold;/*fonte do botao*/
   border: none;/*remove a borda*/
+  margin: 25px;/*espacamento externo*/
+}
+
+.caixa-texto-banner {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /*move verticalmente*/
+  padding: 35px; /*espacamento interno*/
 
 }
 
-.caixa-texto-banner{
-  width: 250px;
-  display: flex;/*propriedade flexbox*/
-  align-items: center;
-
+.section-center {
+display: flex;
+justify-content: center;
 
 }
+
+.estrutura-titulo{
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.titulo-primario{
+  justify-content: center;
+  display: flex;
+
+}
+
+
 
